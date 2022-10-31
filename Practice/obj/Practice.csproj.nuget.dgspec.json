@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\viplo\\source\\repos\\Practice\\Practice\\Practice.csproj": {}
+    "D:\\practica\\blinkopec\\Practice\\Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\viplo\\source\\repos\\Practice\\Practice\\Practice.csproj": {
+    "D:\\practica\\blinkopec\\Practice\\Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\viplo\\source\\repos\\Practice\\Practice\\Practice.csproj",
+        "projectUniqueName": "D:\\practica\\blinkopec\\Practice\\Practice.csproj",
         "projectName": "Practice",
-        "projectPath": "C:\\Users\\viplo\\source\\repos\\Practice\\Practice\\Practice.csproj",
+        "projectPath": "D:\\practica\\blinkopec\\Practice\\Practice.csproj",
         "packagesPath": "C:\\Users\\viplo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\viplo\\source\\repos\\Practice\\Practice\\obj\\",
+        "outputPath": "D:\\practica\\blinkopec\\Practice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
