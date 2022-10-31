@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Catalog\bread-icon.png" />
+    <None Remove="Resources\Catalog\chocolate-icon.png" />
+    <None Remove="Resources\Catalog\for children-icon.png" />
+    <None Remove="Resources\Catalog\milk and egg-icon.png" />
+    <None Remove="Resources\Catalog\oil-icon.png" />
+    <None Remove="Resources\Catalog\pasta-icon.png" />
+    <None Remove="Resources\Catalog\preserves-icon.png" />
+    <None Remove="Resources\Catalog\sausage-icon.png" />
+    <None Remove="Resources\Catalog\water and drink-icon.png" />
+    <None Remove="Resources\user-ico.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Catalog\bread-icon.png" />
+    <Resource Include="Resources\Catalog\chocolate-icon.png" />
+    <Resource Include="Resources\Catalog\for children-icon.png" />
+    <Resource Include="Resources\Catalog\milk and egg-icon.png" />
+    <Resource Include="Resources\Catalog\oil-icon.png" />
+    <Resource Include="Resources\Catalog\pasta-icon.png" />
+    <Resource Include="Resources\Catalog\preserves-icon.png" />
+    <Resource Include="Resources\Catalog\sausage-icon.png" />
+    <Resource Include="Resources\Catalog\water and drink-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\user-ico.png" />
+  </ItemGroup>
+
+</Project>
