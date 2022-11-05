@@ -5,10 +5,64 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Practice"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="UserPage">
+      d:DesignHeight="600" d:DesignWidth="400"
+      Title="UserPage" >
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="10"
+                                Background="{TemplateBinding Background}">
 
-    <StackPanel>
-        <Button VerticalAlignment="Top" HorizontalAlignment="Left"/>
-    </StackPanel>
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid x:Name="userGrid" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="50">
+            <Border x:Name="Border" 
+                                Width="{TemplateBinding ContentControl.Width}"
+                                CornerRadius="20">
+                <Image Source="Resources/User/back-icon.png"/>
+            </Border>
+        </Button>
+
+        <TextBlock Grid.Row="1" Text="qwqweq" FontSize="24" FontWeight="Bold" Margin="40,0,0,0"/>
+        <TextBlock Grid.Row="2" Text="asdasd" FontSize="16" Margin="40,0,0,0" FontWeight="UltraLight"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="40,70,0,0">
+            <Image Source="Resources/User/orders-icon.png" Width="50" Height="50"/>
+            <Button Margin="20,0,0,0" Content="Заказы" FontSize="24" Width="250" Height="50"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="40,20,0,0">
+            <Image Source="Resources/User/address-icon.png" Width="50" Height="50"/>
+            <Button Margin="20,0,0,0" Content="Адреса" FontSize="24" Width="250" Height="50"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="40,20,0,0">
+            <Image Source="Resources/User/trash-icon.png" Width="50" Height="50"/>
+            <Button Margin="20,0,0,0" Content="Корзина" FontSize="24" Width="250" Height="50"/>
+        </StackPanel>
+
+        <Button Grid.Row="6" Foreground="Red" FontSize="16" Content="Выход" Background="Transparent" BorderBrush="Transparent" Width="100" Height="60" Margin="0,100,0,0" FontWeight="Bold"/>
+    </Grid>
 </Page>
