@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\practica\blinkopec\Practice\obj\Debug\net6.0-windows\
+C:\Users\viplo\OneDrive\Документы\practice\blinkopec\Practice\obj\Debug\net6.0-windows\
 Practice
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\practica\blinkopec\Practice\App.xaml
-31556060343
+C:\Users\viplo\OneDrive\Документы\practice\blinkopec\Practice\App.xaml
+3-624461199
 
-7-1419599504
-194-1951243044
-MainWindow.xaml;registration.xaml;UserPage.xaml;
+7396370698
+1941645785384
+MainWindow.xaml;RegistrationPage.xaml;UserPage.xaml;
 
-False
+True
 
